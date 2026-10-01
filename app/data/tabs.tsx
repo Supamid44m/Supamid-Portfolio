@@ -16,10 +16,10 @@ export const tabs: TabItem[] = [
     label: "About Me",
     sequence: 1,
   },
-  {
-    label: "Certificate",
-    sequence: 5,
-  },
+  // {
+  //   label: "Certificate",
+  //   sequence: 5,
+  // },
   {
     label: "Education",
     sequence: 2,

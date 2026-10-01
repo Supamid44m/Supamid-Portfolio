@@ -13,7 +13,7 @@ export const workExperience:workExperinece[] =[
     {
         name: "Entronica Co., Ltd",
         position: "Front-end Developer (Cooperative Education)",
-        year: "November 2023 - March 2024"
+        year: "November 2023-March 2024"
     },
      {
         name: "Entronica Co., Ltd",

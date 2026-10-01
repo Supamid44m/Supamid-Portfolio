@@ -18,7 +18,7 @@ export const workExperience:workExperinece[] =[
      {
         name: "Entronica Co., Ltd",
         position: "Software Developer",
-        year: "May 2024-Preent"
+        year: "May 2024-Present"
 
     }
 

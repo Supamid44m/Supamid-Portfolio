@@ -19,7 +19,7 @@ export const education: Education[] = [
         name: "Ubon Ratchathani University",
         major: "Data Science and Software Innovation",
         faculty: "Science",
-        year: "2020 - 2024",
+        year: "2020-2024",
         gpax: "3.43",
         option: "Second-Class Honors",
     },  

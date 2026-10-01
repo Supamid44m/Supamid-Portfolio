@@ -14,7 +14,7 @@ export default function Header() {
     >
       <div className="mx-auto flex max-w-4xl flex-col items-center gap-4 px-4 py-8 text-center sm:flex-row sm:text-left">
         <Avatar
-          src="/rick.png"
+          src="/profile.png"
           alt={name}
           sx={{ width: 96, height: 96, border: 3, borderColor: "primary.main" }}
         />

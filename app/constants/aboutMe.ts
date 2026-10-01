@@ -6,6 +6,9 @@ export const aboutMe = {
     contact:{
         email: "supamid.ak.2001@gmail.com",
         phone: "+66 63 115 6944",
-        linkedin: "Supamid Akarachat",
+        linkedin: {
+            name: "Supamid Akarachat",
+            url: "https://www.linkedin.com/in/supamid-akarachat-678320305/",
+        },
     }
 }

@@ -5,6 +5,7 @@ import Resume from "../component/resume/resume";
 import WorkExperinece from "../component/workExperience/workExperience";
 import Project from "../component/projects/project";
 import Certificate from "../component/certificate/certificate";
+import Blog from "../component/blog/blog";
 
 export interface TabItem {
   label: string;
@@ -14,23 +15,27 @@ export interface TabItem {
 export const tabs: TabItem[] = [
   {
     label: "About Me",
-    sequence: 1,
-  },
-  {
-    label: "Certificate",
     sequence: 5,
   },
   {
-    label: "Education",
-    sequence: 2,
-  },
-  {
-    label: "Projects",
+    label: "Certificate",
     sequence: 4,
   },
   {
-    label: "CV / Resume",
+    label: "Education",
     sequence: 6,
+  },
+  {
+    label: "Projects",
+    sequence:  1,
+  },
+  {
+    label: "Blog",
+    sequence: 2,
+  },
+  {
+    label: "CV / Resume",
+    sequence: 7,
   },
   {
     label:"Work Experience",
@@ -41,6 +46,7 @@ export const tabs: TabItem[] = [
 export const tabContent: Record<string, ComponentType> = {
     "About Me": AboutMe,
     "Certificate": Certificate,
+    "Blog": Blog,
     "Education": Education  ,
     "Projects": Project,
     "CV / Resume": Resume,

@@ -5,7 +5,7 @@ import PhoneOutlinedIcon from "@mui/icons-material/PhoneOutlined";
 import { aboutMe } from "../constants/aboutMe";
 
 export default function Header() {
-  const { name, role, contact } = aboutMe;
+  const { name, role, contact,nickname } = aboutMe;
   return (
     <Box
       component="header"
@@ -20,7 +20,7 @@ export default function Header() {
         />
         <div className="flex-1">
           <Typography variant="h4" component="h1">
-            {name}
+            {name} ({nickname})
           </Typography>
           <Typography variant="subtitle1" color="text.secondary">
             {role}

@@ -27,11 +27,11 @@ export const tabs: TabItem[] = [
   },
   {
     label: "Projects",
-    sequence:  1,
+    sequence:  2,
   },
   {
     label: "Blog",
-    sequence: 2,
+    sequence: 3,
   },
   {
     label: "CV / Resume",
@@ -39,7 +39,7 @@ export const tabs: TabItem[] = [
   },
   {
     label:"Work Experience",
-    sequence: 3,
+    sequence: 1,
   }
 ];
 

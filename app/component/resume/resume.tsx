@@ -7,7 +7,7 @@ export default function Resume() {
   return (
     <div>
       <SectionTitle>CV / Resume</SectionTitle>
-      <PdfViewer src="/pdf/SUPAMID_CV.pdf" />
+      <PdfViewer src="/pdf/SUPAMID_RESUME.pdf" />
     </div>
   );
 }

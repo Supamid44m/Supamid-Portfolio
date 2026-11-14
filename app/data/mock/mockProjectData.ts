@@ -36,6 +36,36 @@ export const mockProjectData: ProjectDto[] = [
   },
 
   {
+    id: "nestjs-discount-system",
+    name: "NestJS Discount System",
+    description:
+      "A REST API that calculates cart totals with discount campaigns (coupon, on-top, seasonal), documented with Swagger.",
+    imageSrc: "",
+    projectUrl: {
+      be: "https://github.com/Supamid44m/NestJs_Discount_System",
+    },
+    hasDemo: false,
+    techStack: [
+      {
+        name: "NestJS",
+        iconSrc: "test",
+      },
+      {
+        name: "TypeScript",
+        iconSrc: "test",
+      },
+      {
+        name: "Swagger",
+        iconSrc: "test",
+      },
+      {
+        name: "Jest",
+        iconSrc: "test",
+      },
+    ],
+  },
+
+  {
     id: "basketball-count-score",
     name: "Basketball Count Score",
     description:

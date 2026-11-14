@@ -29,4 +29,22 @@ export const certificates: Certificate[] = [
     pdfPath: "/pdf/certificate/javascript_basic certificate.pdf",
     imagePath: "/images/certificate/javascript_basic_certificate.png",
   },
+  {
+    name: "SQL (Basic)",
+    issuer: "HackerRank",
+    date: "Oct 2026",
+    description: "HackerRank skill certification test in SQL fundamentals.",
+    url: "https://www.hackerrank.com/certificates/56bebb2e0cbf",
+    pdfPath: "/pdf/certificate/sql_basic certificate.pdf",
+    imagePath: "/images/certificate/sql_basic_certificate.png",
+  },
+  {
+    name: "Golang Cheat Sheet",
+    issuer: "Superdev Academy",
+    date: "Nov 2026",
+    description: "Certificate of completion for the Golang Cheat Sheet course (48 minutes).",
+    url: "https://learn.superdevacademy.com/v/C8KF7T0E",
+    pdfPath: "/pdf/certificate/spd_c8_kf7_t0_e_1dz3q2qs8a.pdf",
+    imagePath: "/images/certificate/golang_cheat_sheet_certificate.png",
+  },
 ];
